@@ -1,6 +1,6 @@
 # Colored Directories
 export CLICOLOR=1
-export LSCOLORS=ExFxCxDxCxegedabagacad
+export LSCOLORS=ExGxCxDxCxegedabagacad
 
 # Starship
 eval "$(starship init zsh)" 
