@@ -92,7 +92,7 @@ My favorite programming font right now is the `Cascadia Code` font. It has a Ner
 2. Symlink `starship.toml`:
 
     ```bash
-    ln -s ~/Repositories/docfiles/.config/starship.toml ~/.config/starship.toml
+    ln -s ~/Repositories/dotfiles/.config/starship.toml ~/.config/starship.toml
     ```
 
 ## Vim
