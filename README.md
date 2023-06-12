@@ -51,7 +51,7 @@ My favorite programming font right now is the `Cascadia Code` font. It has a Ner
 
     ```bash
     export CLICOLOR=1
-    export LSCOLORS=ExFxCxDxCxegedabagacad
+    export LSCOLORS=ExGxCxDxCxegedabagacad
     ```
     > Note: Fedora uses $LS_COLORS env variable instead, which uses a different formatting. For now, it is very similar.
 
