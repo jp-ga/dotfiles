@@ -3,4 +3,4 @@
 	url = https://github.com/jp-ga/vim-airline
 [submodule ".vim/pack/dist/start/vim-fugitive"]
 	path = .vim/pack/dist/start/vim-fugitive
-	url = https://github.com/tpope/vim-fugitive
+	url = https://github.com/jp-ga/vim-fugitive
