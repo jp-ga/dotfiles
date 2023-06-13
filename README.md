@@ -47,7 +47,7 @@ My favorite programming font right now is the `Cascadia Code` font. It has a Ner
     brew install --cask iterm2
     ```
 
-3. Add the following to `~/.zshrc`
+3. Add the following to `.zshrc`
 
     ```bash
     export CLICOLOR=1
