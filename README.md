@@ -1,18 +1,22 @@
 # Customize MacOS and Fedora terminals
 
-Before starting setup, clone repo with submodules: 
+This is my terminal setup using the [selenized color scheme](https://github.com/jan-warchol/selenized), [CaskaydiaCove Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode), a customized prompt using [starship](https://github.com/starship/starship), and a customized vim status bar using [vim-airline](https://github.com/vim-airline/vim-airline).
+
+## Repository instructions
+
+This repository has submodules, so it should be cloned as follows: 
 
 ```bash
 git clone --recurse-submodules https://github.com/jp-ga/dotfiles.git
 ```
 
-To sync another computer with the latest config files, pull repo with submodules:
+To sync another computer with the latest config files, pull repo and submodules from repo directory:
 
 ```bash
 git pull --recurse-submodules
 ```
 
-After any change in config files, push main repo and  submodules from main repo:
+After any change in config files, push main repo and submodules from repo directory:
 
 ```bash
 git push --recurse-submodules=on-demand
