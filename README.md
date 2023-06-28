@@ -99,6 +99,11 @@ My favorite programming font right now is the `Cascadia Code` font. It has a Ner
     ln -s ~/Repositories/dotfiles/.config/starship.toml ~/.config/starship.toml
     ```
 
+3. Add the following to `.condarc`:
+    ```
+    changeps1: false
+    ```
+
 ## Vim
 
 1. Symlink `.vim` directory and `.vimrc` file:
