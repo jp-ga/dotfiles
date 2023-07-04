@@ -2,8 +2,6 @@
 export CLICOLOR=1
 export LSCOLORS=ExGxCxDxCxegedabagacad
 
-# Starship
-eval "$(starship init zsh)"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -24,5 +22,11 @@ if [ -f "/Users/jpga/mambaforge/etc/profile.d/mamba.sh" ]; then
 fi
 # <<< conda initialize <<<
 
+
 # Turn off mamba banner:
 export MAMBA_NO_BANNER=1
+
+
+# Starship initialize: 
+eval "$(starship init zsh)"
+
