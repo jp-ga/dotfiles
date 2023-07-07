@@ -5,6 +5,7 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
+
 # User specific environment
 if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
 then
@@ -12,8 +13,10 @@ then
 fi
 export PATH
 
+
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
+
 
 # User specific aliases and functions
 if [ -d ~/.bashrc.d ]; then
@@ -25,6 +28,7 @@ if [ -d ~/.bashrc.d ]; then
 fi
 
 unset rc
+
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -45,5 +49,11 @@ if [ -f "/home/jp/mambaforge/etc/profile.d/mamba.sh" ]; then
 fi
 # <<< conda initialize <<<
 
-# Starship setup
+
+# turn off mamba banner:
+export MAMBA_NO_BANNER=1
+
+
+# Starship setup:
 eval "$(starship init bash)"
+
